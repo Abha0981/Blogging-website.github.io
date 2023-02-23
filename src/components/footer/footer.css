@@ -1,0 +1,14 @@
+.footer{
+    background-color: rgb(62, 62, 62);
+    width: 100%;
+    height: 50px;
+    margin: 0;
+}
+.copyright{
+    display: flex;
+    text-align: center;
+    flex-direction:column;
+    color: aliceblue;
+    font-family: 'Mukta', sans-serif;
+    padding-top: 13px;
+}

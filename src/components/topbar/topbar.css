@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    /* font-family: 'Itim', cursive;
+    font-family: 'Mukta', sans-serif; */
+}
+
+.top {
+    height: 70px;
+    width: 100%;
+    background-color: white;
+    position: sticky;
+    top: 0;
+    display: flexbox;
+    z-index: 100;
+}
+
+.top {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    font-size: 32px;
+}
+
+.toplist {
+    display: flex;
+    justify-content: left;
+    list-style: none;
+    margin: 105px;
+    padding-right: 0;
+    align-content: left;
+}
+
+.searchicon {
+    display: flex;
+    margin: 0%;
+    padding: 0%;
+    cursor: pointer;
+    justify-content: flex-end;
+}
+
+.toplistitem {
+    margin-right: 40px;
+    font-family: 'Mukta', sans-serif;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: rgb(59, 59, 59);
+}
+
+li:hover, li:active{
+    font-weight: 800;
+}
+
+.topleft,
+.topright {
+    flex: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.topcenter {
+    flex: 4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Profileimg {
+    height: 38px;
+    width: 38px;
+    border-radius: 50%;
+    object-fit: cover;
+}
