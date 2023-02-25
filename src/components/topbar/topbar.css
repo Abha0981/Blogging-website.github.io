@@ -73,4 +73,5 @@ li:hover, li:active{
     width: 38px;
     border-radius: 50%;
     object-fit: cover;
+    cursor: pointer;
 }

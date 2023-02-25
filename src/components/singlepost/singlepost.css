@@ -16,4 +16,38 @@
     text-align: center;
     justify-content: center;
     font-size: 30px;
+    text-transform: capitalize;
+}
+.singlepostedit{
+    float: right;
+    color: rgb(96, 96, 96);
+}
+.singleposticon{
+    font-size: 15px;
+    margin-left: 10px;
+    cursor: pointer; 
+}
+.singleposticon:first-child:hover{
+    color: rgb(38, 151, 38);
+}
+.singleposticon:last-child:hover{
+    color: rgb(210, 53, 53);
+}
+.singlepostinfo{
+    margin-bottom: 20px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    color: rgb(200, 153, 0);
+}
+.singlepostdes{
+    text-align: justify;
+    color: rgb(27, 27, 27);
+    margin-bottom: 50px;
+}
+.singlepostdes::first-letter{
+    margin-left: 20px;
+    font-size: 30px;
+    color: black;
+    font-weight: 800;
 }

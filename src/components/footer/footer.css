@@ -2,13 +2,16 @@
     background-color: rgb(62, 62, 62);
     width: 100%;
     height: 50px;
-    margin: 0;
-}
-.copyright{
-    display: flex;
+    display: flexbox;
     text-align: center;
-    flex-direction:column;
+    flex-direction:row;
     color: aliceblue;
-    font-family: 'Mukta', sans-serif;
-    padding-top: 13px;
+    font-family: 'Mukta', sans-serif; 
+}
+.copyrighticon,.copyrightsreserved ,.year{
+    padding-top: 20px;
+    font-size: 15px;
+}
+.copyrighticon{
+    font-size: 10px;
 }
