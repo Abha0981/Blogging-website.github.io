@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+}
+
+.login {
+    background-image: url("./image/login.jpg");
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-size: cover;
+    /* background: linear-gradient(
+        rgb(0, 0, 0,1),
+        rgb(0, 0, 0,1),
+        ); */
+    height: calc(100vh - 0px);
+}
