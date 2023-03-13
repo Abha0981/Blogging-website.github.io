@@ -7,7 +7,6 @@ export default function Settings() {
       <div className="settingswrapper">
         <div className="settingstitle">
           <span className="settingsupdatetitle">Update Your Account</span>
-          <span className="settingsdeletetitle">Delete Your Account</span>
         </div>
         <form className="settingform">
           <label>Profile Picture</label>
