@@ -9,7 +9,6 @@ export default function Settings() {
           <span className="settingsupdatetitle">Update Your Account</span>
         </div>
         <form className="settingform">
-          <label>Profile Picture</label>
           <div className="settingprofileimg">
             <img src={profileimage} alt="" className="ppimg"></img>
             <label htmlFor="fileinput">
@@ -17,10 +16,10 @@ export default function Settings() {
             </label>
             <input type="file" id="fileinput" style={{ display: "none" }} />
           </div>
-          <label>John Walker</label>
-          <input type="text" placeholder="Rayan Walker"></input>
+          <label>Name</label>
+          <input type="text" placeholder="Rayan Walker"></input><br />
           <label>Email</label>
-          <input type="email" placeholder="rayanwalker@gmail.com"></input>
+          <input type="email" placeholder="rayanwalker@gmail.com"></input><br />
           <label>Password</label>
           <input type="password"></input>
           <button className="settingupdate">Update</button>
