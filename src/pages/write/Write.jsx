@@ -1,6 +1,6 @@
 import './write.css'
 import writeimg1 from './image/architechural design.jpg'
-
+import React from "react";
 export default function Write() {
     return (
         <div className="write">

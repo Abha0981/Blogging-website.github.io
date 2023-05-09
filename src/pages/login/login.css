@@ -9,12 +9,12 @@ fieldset {
 }
 
 .login {
-    background-image: url("./image/login.jpg");
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.119), rgba(0, 0, 0, 0.119)),url("./image/login.jpg");
     display: flex;
     flex-direction: column;
     justify-content: center;
     background-size: cover;
-    height: calc(100vh - 0px);
+    height: calc(87vh - 0px);
     align-items: center;
 }
 
@@ -26,7 +26,6 @@ fieldset {
 
 .login>label {
     margin: 10px, 0;
-
 }
 
 .login input {
@@ -45,24 +44,25 @@ fieldset {
     border: none;
     cursor: pointer;
     border-radius: 10px;
-
 }
 .loginbtn:hover{
     background-color: rgb(112, 191, 248);
 }
 
-.register {
-    color: rgb(0, 0, 0);
+.register_btn {
+    color: rgb(33, 33, 33);
     padding: 4px;
     margin-top: 10px;
     border: none;
     cursor: pointer;
     margin-left: 80px;
-    font-weight: 500;
+    font-weight: 600;
+    background: none;
 }
 
 .logintitle {
     align-items: center;
     display: flex;
     flex-direction: column;
+    color: rgb(33, 33, 33);
 }

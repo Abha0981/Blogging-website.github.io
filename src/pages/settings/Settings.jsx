@@ -1,6 +1,6 @@
 import "./settings.css"
 import profileimage from "./image/profileimage.jpg"
-
+import React from "react";
 export default function Settings() {
   return (
     <div className="settings">

@@ -1,6 +1,6 @@
 import "./about.css"
 import user from "./image/profileimage.jpg"
-
+import React from "react";
 export default function About() {
     return (
         <div className='About'>

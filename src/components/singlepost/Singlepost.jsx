@@ -1,5 +1,6 @@
 import "./singlepost.css"
 import img3 from './imagepost/singlepostimg.jpg'
+import React from "react";
 export default function Singlepost() {
     return (
         <div className="singlepost">

@@ -1,6 +1,6 @@
 import "./post.css"
 import postimg1 from "./postimg/uximg.jpg"
-
+import React from "react";
 export default function Post() {
     return (
         <div className="post">
@@ -9,7 +9,7 @@ export default function Post() {
                 <div className="postcategorys">
                     <span className="postcat">Sea</span>
                 </div>
-                <span className="posttitle">Use of Artificial Intelligene nowdays</span>
+                <span className="posttitle">User Experience Design</span>
                 <hr />
                 <span className="postdate">1 hour ago</span>
                 <p className="postdes">Lorem Ipsum is simply dummy text of the printing

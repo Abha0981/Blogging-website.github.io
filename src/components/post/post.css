@@ -38,10 +38,10 @@
 }
 
 .posttitle {
-    font-size: 18px;
-    line-height: 20px;
+    line-height: 27px;
     margin-top: 12px;
-    font-weight: 600;
+    font-size: 0.2rem;
+    font-weight: 550;
     cursor: pointer;
 }
 
