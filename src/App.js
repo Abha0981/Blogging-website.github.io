@@ -29,7 +29,6 @@ function App() {
         <Route path="/write"element={<Write/>}></Route>
         <Route path="/settings"element={user ? <Settings/> : <Register/>}></Route>
         <Route path="/singlepage"element={<Single />}></Route>
-
       </Routes>
     </Router>
   );
