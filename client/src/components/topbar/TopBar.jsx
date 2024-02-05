@@ -18,7 +18,7 @@ export default function TopBar() {
                     <li className="toplistitem"><Link to='/about' className="link">About</Link></li>
                     <li className="toplistitem"><Link to='/write' className="link">Write</Link></li>
                 </ul>
-                <i className="searchicon fa-solid fa-magnifying-glass"></i>
+                
             </div>
             <div className="topright">
                 {
