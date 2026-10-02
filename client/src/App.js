@@ -9,7 +9,7 @@ import Write from "./pages/write/Write";
 import About from "./pages/about/About";
 import React from "react";
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Routes,
   // Switch,
   // Topbar,
@@ -17,27 +17,13 @@ import {
 } from "react-router-dom";
 
 function App() {
-  const user = false
+  const user = true;
   return (
 
-    // <Router>
-    //   <Topbar>
-    //   <Switch>
-    //     <Route exact path="/"> <Home /> </Route>
-    //     <Route path="/posts"> <Home />  </Route>
-    //     <Route path="/register"> {user ? <Home /> : <Register />} </Route>
-    //     <Route path="/login">{user ? <Home /> : <Login />}</Route>
-    //     <Route path="/post/:id"> <Single /> </Route>
-    //     <Route path="/write">{user ? <Write /> : <Login />}</Route>
-    //     <Route path="/settings"> {user ? <Settings /> : <Login />} </Route>
-    //     <Route path="/about"> <About/> </Route>
-    //   </Switch>
-    //   </Topbar>
-    // </Router>
-
+    
     <Router>
 
-      <TopBar />
+      <TopBar user={user} />
 
       <Routes>
         <Route exact path="/"element={<Home />}></Route>

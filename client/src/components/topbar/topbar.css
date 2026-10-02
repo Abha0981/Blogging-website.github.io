@@ -76,3 +76,8 @@ li:hover, li:active{
     object-fit: cover;
     cursor: pointer;
 }
+
+.profilelink {
+    display: flex;
+    align-items: center;
+}

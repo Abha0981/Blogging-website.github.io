@@ -2,8 +2,7 @@ import "./topbar.css";
 import navproimg from './imagetopbar/profileimage.jpg'
 import React from "react";
 import { Link } from "react-router-dom";
-export default function TopBar() {
-    const user = false;
+export default function TopBar({ user }) {
     return (
         <div className="top">
             <div className="topleft">
@@ -23,7 +22,9 @@ export default function TopBar() {
             <div className="topright">
                 {
                     user ? (
-                        <img className="Profileimg" src={navproimg} alt=""></img>
+                        <Link to="/settings" className="profilelink" aria-label="Open user settings">
+                            <img className="Profileimg" src={navproimg} alt="User profile" />
+                        </Link>
                     ) : (
 
                         <ul className="toplist">
